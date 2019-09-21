@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleTest">
+    <test name="GooglePageTest">
+        <classes>
+            <class name="com.app.automation.google.test.GoogleTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="BingPageTest">
+        <classes>
+            <class name="com.app.automation.google.test.BingTest"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
