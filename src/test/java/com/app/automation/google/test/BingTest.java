@@ -13,7 +13,9 @@ public class BingTest {
 
     @BeforeClass
     public void Setup(){
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sunrays\\Downloads\\geckodriver.exe");
+        // For WIndows machine ,please change the locations of your driver path
+        //System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sunrays\\Downloads\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "/home/sunrays/Downloads/geckodriver");
     }
 
     @Test
