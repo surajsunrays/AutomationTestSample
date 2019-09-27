@@ -15,7 +15,7 @@ public class TalentNowTest {
     public void Setup(){
         // For WIndows machine ,please change the locations of your driver path
         //System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sunrays\\Downloads\\geckodriver.exe");
-        System.setProperty("webdriver.gecko.driver", "./geckodriver");
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
     }
 
     @Test
