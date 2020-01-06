@@ -11,10 +11,4 @@
             <class name="com.app.automation.google.test.BingTest"/>
         </classes>
     </test>
-    <test name="TalentNowPageTest">
-        <classes>
-            <class name="com.app.automation.google.test.TalentNowTest"/>
-        </classes>
-    </test>
-
 </suite> <!-- Suite -->
