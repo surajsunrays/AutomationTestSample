@@ -17,7 +17,7 @@ public class GoogleTest {
     public void Initialize(){
         // For WIndows machine ,please change the locations of your driver path
         //System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sunrays\\Downloads\\geckodriver.exe");
-        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
     }
 
     @Test
